@@ -1,0 +1,31 @@
+---
+title: "Practicum"
+author: Edward Blaha
+format:
+  pdf: default
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+```{r}
+
+source("/Users/edwardblaha/DataWrangling/Practicum/Practicum.R")
+```
+
+## Figure 1
+
+```{r}
+Figure1
+```
+
+## Figure 2
+```{r}
+Figure2
+```
+
+## Discussion
+
+Replication mirrored the process used for the ANES. For this replication, I 
+successfully adjusted my data according to the weights, unlike in the ANES replication. 
+I also corrected some syntax issues with Claude, including improper use of ==. 

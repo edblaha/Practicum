@@ -1,0 +1,12 @@
+Claude Prompts- 
+1. what is survey_mean
+2.  what went wrong- cces_svy_pres <- cces_svy |>filter(year %in% seq(2008, 2024, by = 4))
+figure2_cumul <- cces_svy_pres %>%   group_by(year, turnout) %>%   summarise(     identifiers = survey_mean(identifiers, na.rm = TRUE, vartype = NULL),   )
+
+
+3. how to delete a dataset
+
+4. how would I count by 4s and only use presidential years - figure2_dataset <- figure1_cumul |> filter(year == c(2008,2012, 2016, 2020, 2024))
+
+5. How to make title smaller and how to make legends smaller in ggplot when they run off the page
+
